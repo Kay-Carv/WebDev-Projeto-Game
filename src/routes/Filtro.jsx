@@ -1,10 +1,11 @@
-import React from 'react'
+import { FiltroContainer } from "../styles/FiltroStyled"
 
-const Filtro = () => {
+// Passando props de titulo, maximo....
+const Filtro = ({titulo, opcoes,tipo, min, max, valor, onChange}) => {
   return (
-    <div>
-      
-    </div>
+    <FiltroContainer>
+
+    </FiltroContainer>      
   )
 }
 
